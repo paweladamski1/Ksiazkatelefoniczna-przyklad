@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ksiazka telefoniczna- przyklad</string>
+    <string name="City">Miasto</string>
+    <string name="FirstName">Imię</string>
+    <string name="HouseNumber">Nr domu</string>
+    <string name="LastName">Nazwisko</string>
+    <string name="PhoneNumber">Nr tel.</string>
+    <string name="PostCode">Kod pocztowy</string>
+    <string name="Street">Ulica</string>
+    <string name="StreetNumber">Nr ulicy</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="SaveBTN">Zapisz</string>
+    <string name="CleanBTN">Wyczyść bazę</string>
+    <string name="CleanForm">Wyczyść formularz</string>
+    <string name="form_new_menu_caption">Wprowadź osobę</string>
+    <string name="show_all_persons_caption">Pokaż zapisane osoby</string>
+</resources>

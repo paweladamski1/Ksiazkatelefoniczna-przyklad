@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pl.szkolenie.ksiazka_telefoniczna.fragments.fragment_detail_person"
+     android:padding="15dp"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Imię"
+        android:id="@+id/FirstNameTXT"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:shadowDx="2"
+        android:shadowDy="2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nazwisko"
+        android:id="@+id/LastNameTXT"
+        android:paddingStart="10dp"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:layout_above="@+id/PhoneNumberTXT"
+        android:layout_toEndOf="@+id/FirstNameTXT" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="ul. Sezamkowa 523 m 5"
+        android:id="@+id/AdressTXT"
+        android:layout_below="@+id/PhoneNumberTXT"
+        android:layout_alignStart="@+id/PhoneNumberTXT"
+        android:layout_marginTop="33dp"
+        android:textSize="20dp"
+        android:layout_alignEnd="@+id/CityTXT" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="+48 856 563 236"
+        android:id="@+id/PhoneNumberTXT"
+        android:layout_below="@+id/FirstNameTXT"
+        android:layout_alignStart="@+id/FirstNameTXT"
+        android:layout_marginTop="23dp"
+        android:textSize="30dp"
+        android:textColor="#ff4345ff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="58-300"
+        android:id="@+id/PostCodeTXT"
+        android:layout_below="@+id/AdressTXT"
+        android:layout_alignStart="@+id/AdressTXT"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Kraków"
+        android:id="@+id/CityTXT"
+        android:layout_alignTop="@+id/PostCodeTXT"
+        android:layout_alignBottom="@+id/PostCodeTXT"
+        android:paddingStart="15dp"
+        android:textSize="18dp"
+        android:layout_alignEnd="@+id/button9" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EditPersonBtn"
+        android:id="@+id/button2"
+        android:layout_marginTop="74dp"
+        android:layout_below="@+id/PostCodeTXT"
+        android:layout_toStartOf="@+id/button4"
+        android:onClick="OnEditPerson_clicked"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/DeleteBtn"
+        android:id="@+id/button4"
+        android:layout_alignTop="@+id/button2"
+        android:layout_toStartOf="@+id/button5"
+        android:onClick="OnDeletePerson_clicked"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ReturnToListBTN"
+        android:id="@+id/button5"
+        android:layout_alignTop="@+id/button4"
+        android:layout_alignEnd="@+id/CityTXT"
+        android:onClick="OnBackToListPerson_clicked"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button9"
+        android:layout_alignTop="@+id/PhoneNumberTXT"
+        android:layout_alignParentEnd="true"
+        android:onClick="OnCallToPhoneNumber_clicked"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_below="@+id/button4"
+        android:layout_alignEnd="@+id/button5"
+        android:layout_marginTop="27dp"
+        android:layout_alignStart="@+id/button2" />
+
+</RelativeLayout>

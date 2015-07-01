@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Ksiazka telefoniczna- przyklad</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="FirstName">First name</string>
+    <string name="LastName">Last name</string>
+    <string name="PhoneNumber">Phone number</string>
+    <string name="Street">Street</string>
+    <string name="StreetNumber">Street number</string>
+    <string name="HouseNumber">House number</string>
+    <string name="City">City</string>
+    <string name="PostCode">Post code</string>
+    <string name="SaveBTN">Save</string>
+    <string name="CleanBTN">Clean db</string>
+    <string name="CleanForm">Clean from</string>
+    <string name="form_new_menu_caption">New person</string>
+    <string name="show_all_persons_caption">Show persons</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

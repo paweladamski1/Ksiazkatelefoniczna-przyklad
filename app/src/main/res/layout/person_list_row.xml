@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    >
+
+    <TextView
+        android:id="@+id/Name"
+        android:text="Jan Kowalski"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:paddingLeft="5dp"
+        android:textColor="#000"
+        android:editable="false">
+    </TextView>
+
+    <TextView
+        android:id="@+id/Adress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Name"
+        android:textSize="12sp"
+        android:paddingLeft="5dp"
+        android:textColor="#999"
+        android:text="ul. Zachlapana nr blotny"
+        >
+    </TextView>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Check"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:checked="false"
+        android:clickable="true" />
+
+</RelativeLayout>
